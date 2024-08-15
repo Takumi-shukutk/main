@@ -1,0 +1,65 @@
+body{
+    min-height: 100vh;
+    display: grid;
+    grid-template: 
+    "header header header" 150px
+    "...... ...... ......" 32px
+    "...... main ......" auto
+    "...... ...... ......" 32px
+    "footer footer footer"30px
+    / 20px auto 20px;
+}
+@media (min-width: 840px) {
+    body{
+        grid-template: 
+        "header header header" 150px
+        "...... ...... ......" 64px
+        "...... main ........" auto
+        "...... ...... ......" 64px
+        "footer footer footer"30px
+        / auto 800px auto;
+    }
+}
+header{
+    grid-area: header;
+    background-color: #a8a8a8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-weight: bold;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+    background-color: #333333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;   
+}
+h1{
+    border-bottom: 4px solid #dadada;
+    font-size: 50px;
+}
+h2{
+    border-left: 6px solid #dadada;
+    font-size: 30px;
+}
+p{
+    font-size: 18px;
+    padding: 10px;
+    margin: 5px;
+    padding-left: 20px;
+    line-height: 1.8em;
+}
+.pa{
+    padding: 5px;
+}
