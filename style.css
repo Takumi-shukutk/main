@@ -1,4 +1,4 @@
-body{
+    body{
     min-height: 100vh;
     display: grid;
     grid-template: 
@@ -29,7 +29,7 @@ header{
     font-size: 4em;
     font-family: "Edu VIC WA NT Beginner", cursive;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
     font-weight: bold;
 }
@@ -62,4 +62,43 @@ p{
 }
 .pa{
     padding: 5px;
+}
+.ya{
+    max-width: 100%;
+    aspect-ratio: 560/315;
+}
+.ya iframe{
+    width: 100%;
+    height: 100%;
+}
+.da{
+    display: flex;
+    justify-content: flex-start;
+}
+.ab{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 32px;
+    width: 30%;
+}
+.ca{
+    font-size: 18px;
+}
+.aa {
+    color: inherit;
+    text-decoration: none;
+}
+
+.aa:visited {
+    color: inherit;
+}
+
+.aa:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.aa:active {
+    color: inherit;
 }
