@@ -4,7 +4,7 @@
     grid-template: 
     "header header header" 150px
     "...... ...... ......" 32px
-    "...... main ......" auto
+    "...... main ........" auto
     "...... ...... ......" 32px
     "footer footer footer"30px
     / 20px auto 20px;
@@ -43,7 +43,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.9em;   
+    font-size: 0.9em;
 }
 h1{
     border-bottom: 4px solid #dadada;
